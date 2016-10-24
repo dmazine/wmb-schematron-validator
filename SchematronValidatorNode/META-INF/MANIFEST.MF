@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-Vendor: IBM
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Name: com.ibm.broker.schematron.SchematronV
+ alidator
+Bundle-SymbolicName: com.ibm.broker.schematron.Sch
+ ematronValidator; singleton:=true
+Require-Bundle: com.ibm.etools.mft.api,com.ibm.etools.mft.config
+Bundle-Version: 1.0.0
+Bundle-ManifestVersion: 2
+

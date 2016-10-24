@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.topologi.com/example"
+	xmlns:tns="http://www.topologi.com/example" elementFormDefault="qualified">
+	<complexType name="Person">
+		<sequence>
+			<element name="Name" type="string"></element>
+			<element name="Gender" type="tns:Gender"></element>
+		</sequence>
+		<attribute name="Title" type="string"></attribute>
+	</complexType>
+	<simpleType name="Gender">
+		<restriction base="string">
+			<enumeration value="Male"></enumeration>
+			<enumeration value="Female"></enumeration>
+		</restriction>
+	</simpleType>
+</schema>
